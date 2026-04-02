@@ -1,0 +1,45 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< com.example:demo >--------------------------
+[INFO] Building Business Analyzer Backend 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ demo ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ demo ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 37 source files with javac [debug release 17] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/Manoj/Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/backend/src/main/java/com/example/demo/dto/SaleRequest.java:[16,20] variable paymentMethod is already defined in class com.example.demo.dto.SaleRequest
+[ERROR] /C:/Users/Manoj/Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/backend/src/main/java/com/example/demo/dto/SaleRequest.java:[54,19] method getNotes() is already defined in class com.example.demo.dto.SaleRequest
+[ERROR] /C:/Users/Manoj/Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/backend/src/main/java/com/example/demo/controller/ChatController.java:[77,17] method getAllProducts in class com.example.demo.service.ProductService cannot be applied to given types;
+  required: org.springframework.data.domain.Pageable
+  found:    no arguments
+  reason: actual and formal argument lists differ in length
+[INFO] 3 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.480 s
+[INFO] Finished at: 2026-03-19T23:14:22+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project demo: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/Manoj/Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/backend/src/main/java/com/example/demo/dto/SaleRequest.java:[16,20] variable paymentMethod is already defined in class com.example.demo.dto.SaleRequest
+[ERROR] /C:/Users/Manoj/Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/backend/src/main/java/com/example/demo/dto/SaleRequest.java:[54,19] method getNotes() is already defined in class com.example.demo.dto.SaleRequest
+[ERROR] /C:/Users/Manoj/Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/backend/src/main/java/com/example/demo/controller/ChatController.java:[77,17] method getAllProducts in class com.example.demo.service.ProductService cannot be applied to given types;
+[ERROR]   required: org.springframework.data.domain.Pageable
+[ERROR]   found:    no arguments
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
